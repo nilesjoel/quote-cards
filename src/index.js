@@ -58,7 +58,7 @@ function App() {
   //   ],
   // }
 
-  const quotes = [quoteOne, quoteThree, quoteFour]
+  const quotes = [quoteOne, quoteFour, quoteThree]
   let currentIndex = 0
   const reset = useCallback(() => {
     ref.current.map(clearTimeout)
