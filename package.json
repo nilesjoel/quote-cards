@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
+  "homepage": "https://github.com/nilesjoel/quote-cards",
   "main": "src/index.js",
   "dependencies": {
     "lodash": "^4.17.20",
