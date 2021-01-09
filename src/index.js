@@ -55,8 +55,15 @@ function App() {
       { words: ['Is', 'what', 'we', 'see'], duration: 5000 },
     ],
   }
+  const quoteFive = {
+    segments: [
+      { words: ['Check', 'yourself'], duration: 1000 },
+      { words: ['Before', 'you', 'reflect'], duration: 5000 },
+      { words: ['Check', 'yourself', 'Before', 'you', 'reflect', 'yourself'], duration: 5000 },
+    ],
+  }
 
-  const quotes = [quoteOne, quoteThree, quoteFour]
+  const quotes = [quoteOne, quoteThree, quoteFour, quoteFive]
   let currentIndex = 0
   const reset = useCallback(() => {
     ref.current.map(clearTimeout)
