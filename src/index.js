@@ -35,12 +35,7 @@ function App() {
       { words: ['Only', 'knowing', 'Is', 'known'], duration: 8000 },
     ],
   }
-  // const quoteTwo = {
-  //   segments: [
-  //     { words: ['We', 'can not', 'become...', 'what', 'we', 'already', 'are.'], duration: 1000 },
-  //     { words: ['We', 'can not', 'be,', 'what', 'we', 'are', 'not.'], duration: 4000 },
-  //   ],
-  // }
+
   const quoteThree = {
     segments: [
       { words: ['We', 'can not', 'become...'], duration: 1000 },
@@ -55,15 +50,15 @@ function App() {
       { words: ['Is', 'what', 'we', 'see'], duration: 5000 },
     ],
   }
-  const quoteFive = {
-    segments: [
-      { words: ['Check', 'yourself'], duration: 1000 },
-      { words: ['Before', 'you', 'reflect'], duration: 5000 },
-      { words: ['Check', 'yourself', 'Before', 'you', 'reflect', 'yourself'], duration: 5000 },
-    ],
-  }
+  // const quoteFive = {
+  //   segments: [
+  //     { words: ['Check', 'yourself'], duration: 1000 },
+  //     { words: ['Before', 'you', 'reflect'], duration: 5000 },
+  //     { words: ['Check', 'yourself', 'Before', 'you', 'reflect', 'yourself'], duration: 5000 },
+  //   ],
+  // }
 
-  const quotes = [quoteOne, quoteThree, quoteFour, quoteFive]
+  const quotes = [quoteOne, quoteThree, quoteFour]
   let currentIndex = 0
   const reset = useCallback(() => {
     ref.current.map(clearTimeout)
